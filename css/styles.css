@@ -53,7 +53,10 @@ html {
 }
 
 .button-cyan:hover {
-  background-color: var(--cyan);
+  opacity: 0.6;
+}
+.button-cyan:active {
+  opacity: 0.8;
 }
 
 body {
@@ -108,7 +111,12 @@ img {
   height: 33px;
   margin-right: 45px;
 }
-
+.site-logo-img:hover {
+  opacity: 0.6;
+}
+.site-logo-img:active {
+  opacity: 0.8;
+}
 .site-nav {
   margin-right: auto;
 }
